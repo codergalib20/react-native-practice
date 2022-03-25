@@ -2,6 +2,7 @@ import { Center, Flex, NativeBaseProvider, Pressable, ScrollView } from 'native-
 import React, { useState } from 'react';
 import { StyleSheet, Text } from 'react-native';
 import AppBar from './components/AppBar';
+import Data from './components/Data';
 import Form from './components/Form';
 
 const data = [
@@ -72,6 +73,7 @@ const App = () => {
   return (
     <NativeBaseProvider>
       <AppBar/>
+      <Data/>
       <ScrollView>
         <Center bg={color ? color : '#fff'}>
           <Flex direction="row" wrap="wrap" justifyContent="space-around">
