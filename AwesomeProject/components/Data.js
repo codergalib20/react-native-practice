@@ -14,7 +14,7 @@ class Data extends Component {
   changing = () => {
     this.setState({ country: "India", count: + 1 })
   }
- 
+
   render() {
     return (
       <View>
@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
     paddingVertical: 5,
     backgroundColor: "#581845",
   },
-  text2 : {
+  text2: {
     fontSize: 22,
     color: "#581845",
     textAlign: 'center',
